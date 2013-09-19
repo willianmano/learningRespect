@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+	<title>Programa Darcy Ribeiro</title>
+
+	<!-- <link rel="stylesheet" href="../../public/assets/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="../../public/assets/css/bootstrap.cosmo.min.css">
+	<link rel="stylesheet" href="../../public/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../public/assets/css/style.css">
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="../../public/assets/css/font-awesome-ie7.css">
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<a href="/respect/public/index.php/"><h1>Avaliação Programa Darcy Ribeiro</h1></a>
+		</div>
+		<h3>Área do {{ name }}</h3><br />
+			{% for form in forms %}
+				<div class="row">
+					<div class="col-md-11 col-md-offset-1">
+						<a href="{{form.action}}" class="btn btn-lg btn-{{style}}">
+							<span class="{{form.icon}}"></span> {{form.name}}
+						</a>
+					</div>
+				</div>
+				<br />
+			{% endfor %}
+		</div>
+	</div>
+</body>
+</html>

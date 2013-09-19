@@ -1,0 +1,26 @@
+.btn-app {
+	display: inline-block;
+	width: 100%;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	border: 0px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	/*border-radius: 12px;*/
+	padding: 40px 0px 20px;
+	margin: 2px;
+	line-height: 1.7;
+	position: relative;
+}
+.btn-app > [class*="icon"] {
+	display: block;
+	font-size: 48px;
+	margin: 0px 0px 4px;
+	line-height: 36px;
+	min-width: 0px;
+	padding: 0px;
+}

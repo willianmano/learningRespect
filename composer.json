@@ -1,0 +1,9 @@
+{
+	"require": {
+		"respect/rest": "dev-develop",
+		"respect/config": "dev-nested-variables",
+		"respect/relational": "dev-master",
+		"respect/validation": "dev-develop",
+		"twig/twig": "1.*"
+	}
+}
